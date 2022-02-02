@@ -13,7 +13,7 @@ int main()
 
 
 	while (1) {
-		gotoxy(x, y);
+		gotoxy(x * 2, y);
 		cout << "★";
 
 		input = GetKeyBoard();
